@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import './App.css';
 
+import DemonynApp from './demonymApp';
 
-import DemonymApp from './demonymapp/DemonymApp';
 class App extends Component {
     render() {
         return (
             <div className = "App">
-                <DemonymApp />
+                <DemonynApp />
             </div>
         );
     }
